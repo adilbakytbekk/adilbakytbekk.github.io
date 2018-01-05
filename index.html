@@ -45,9 +45,9 @@
 							<li><a href="#"><i class="fa fa-github"></i></a></li>
 						</ul>
 					</div><!-- TOP_LINE_SOCIAL -->
-					<div class="top__line__audio">
+					<div class="top__line__audio hidden-xs hidden-sm">
 						<audio src="audio/sound.mp3" type="audio/mp3" autoplay loop id="player"></audio>
-						<a href="#" onclick="document.getElementById('player').muted = 1;">
+						<a href="#" class="play">
 							<svg class="volume" version="1.1"  xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
 								<path d="M578.135,106.298c-11.136-6.299-24.275-6.076-35.245,0.494c-0.501,0.334-0.994,0.675-1.454,1.058L386.939,238.584H265.662
 								c-6.299,0-11.414,5.123-11.414,11.421v216.649c0,3.063,1.225,5.957,3.334,8.087c2.186,2.103,5.018,3.327,8.08,3.327l120.99-0.056
@@ -93,7 +93,7 @@
 									
 									<div class="header__composition">
 										<div class="h1_border animated fadeInUp">
-											<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 537.33331 117.33333" id="h1_border" version="1.1" width="403px" height="88px">
+											<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 537.33331 117.33333" id="h1_border" version="1.1">
 												<path id="path817" d="M 0,58.666659 V 0 H 268.66664 537.3333 V 58.666659 117.33333 H 455.99997 374.66664 V 114 110.66666 h 78 77.99999 V 58.666659 6.6666603 H 268.66664 6.6666695 V 58.666659 110.66666 H 86.66666 166.66665 V 114 117.33333 H 83.33333 0 Z" style="fill:none;fill-opacity:1;stroke-width:6.7px; stroke: #2dd07a;" stroke-/>
 											</svg>
 										</div>
@@ -114,8 +114,39 @@
 
 		<div id="my-content"></div>
 			<section class="s_about">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eveniet aliquam voluptate numquam deserunt quae cumque error ipsum delectus mollitia assumenda tenetur rem, ducimus perspiciatis. Sapiente dolorem vitae ipsa provident.
-			</section>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<h2 class="h2">About me</h2>
+						</div>	
+						<div class="col-md-3">
+							<div class="about_photo"></div>
+						</div>
+						<div class="col-md-9">
+							<h3 class="about_me_head">Адиль Бакытбек</h3>
+							<p class="about_me_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut</p>
+							<ul class="statics">
+								<li>
+									<span>45</span>
+									<a href="#">Веб-сайтов разработана</a>
+								</li>
+								<li>
+									<span>6</span>
+									<a href="#">Лет работы на рынке</a>
+								</li>
+								<li>
+									<span>45</span>
+									<a href="#">Довольных клиентов</a>
+								</li>
+								<li>
+									<span>45</span>
+									<a href="#">Разработан модули</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- BOOSTRAP -->
+			</section><!-- S_ABOUT -->
 		<div id="my-footer"></div>
 	</div>
 
